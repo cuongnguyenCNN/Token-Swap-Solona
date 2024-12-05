@@ -1,0 +1,6 @@
+$ mkdir -p "E:\\Projects\\swap-app-exchange-dex\\target\\debug\\build\\az-aae4333dc776a8f7\\out\\try_track_caller"
+$ cd "E:\\Projects\\swap-app-exchange-dex\\target\\debug\\build\\az-aae4333dc776a8f7\\out\\try_track_caller"
+$ printf '%s' "// try_tra"... > "E:\\Projects\\swap-app-exchange-dex\\target\\debug\\build\\az-aae4333dc776a8f7\\out\\try_track_caller\\try_track_caller.rs"
+$ "C:\\Users\\cuong\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\rustc.exe" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "E:\\Projects\\swap-app-exchange-dex\\target\\debug\\build\\az-aae4333dc776a8f7\\out\\try_track_caller"
